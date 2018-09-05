@@ -18,7 +18,7 @@ html, body {
   background-image: url(https://source.unsplash.com/mx0DEnfYxic);
   height: 100%;
   background-size: cover;
-  background-position: right center;
+  background-position: center;
   background-repeat: no-repeat;
   border-radius: 1.25rem;
   transition: all 1.5s;
@@ -81,4 +81,16 @@ button:hover {
   background-color: white;
   color: #e8deed;
   text-shadow: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    margin: 1rem auto;
+    height: 95vh;
+    width: 95vw;
+  }
+
+  .text-content {
+    padding-top: 5%;
+  }
 }
